@@ -2,7 +2,7 @@
 
 (function() {
 
-  var element = document.getElementByID("duck")
+  var element = document.getElementByID("duck");
 
   element.addEventListener("click", function() {
     element.innerHTML = element.innerHTML + "<p> QUACK </p>";
@@ -16,5 +16,5 @@
     console.log("Mouse Over");
   });
   console.log(element);
-  console.log("Duck ready!")
+  console.log("Duck ready!");
 })();
