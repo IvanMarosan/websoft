@@ -7,7 +7,7 @@ html {
 
 .duck{
    width:128px;
-   height:128px
+   height:128px;
    border: 1px solid black;
    background-image: url(../img/duck.jpg);
    background-size: 128px;
