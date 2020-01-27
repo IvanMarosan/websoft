@@ -2,7 +2,7 @@
 
 (function() {
 
-  var element = document.getElementByID("duck");
+  var element = document.getElementById("duck");
 
   element.addEventListener("click", function() {
     element.innerHTML = element.innerHTML + "<p> QUACK </p>";
@@ -10,7 +10,7 @@
   });
 
   element.addEventListener("mouseover", function() {
-    element.style.left = element.OffsetLeft + 20 + "px";
+    element.style.left = element.offsetLeft + 20 + "px";
     console.log(element.style.left);
     console.log(element.OffsetLeft);
     console.log("Mouse Over");
