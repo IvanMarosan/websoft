@@ -5,11 +5,11 @@ html {
     overflow-y: scroll;
 }
 
- .duck{
+.duck{
    width:128px;
    height:128px
    border: 1px solid black;
-   background-image: url(.../img/duck.png);
+   background-image: url(.../img/duck.jpg);
    background-size: 128px;
    position: absolute;
    top:20px;
