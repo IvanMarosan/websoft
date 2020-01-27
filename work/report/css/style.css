@@ -1,5 +1,5 @@
 /*
- * Comments are written as C++ style. 
+ * Comments are written as C++ style.
  */
 html {
     overflow-y: scroll;
@@ -7,6 +7,6 @@ html {
 
 body {
     margin: 8px auto;
-    background: #fff;
+    background: #E9967A;
     width: 700px;
 }
