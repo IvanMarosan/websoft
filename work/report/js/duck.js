@@ -4,17 +4,15 @@
 
   var element = document.getElementById("duck");
 
+
   element.addEventListener("click", function() {
-    element.innerHTML = element.innerHTML + "<p> QUACK </p>";
+    var x = Math.floor(Math.random()* 500);
+    var y = Math.floor(Math.random()* 500);
+    element.style.top = x + "px";
+    element.style.left = y + "px";
     Comments.log("Duck clicked!");
   });
 
-  element.addEventListener("mouseover", function() {
-    element.style.left = element.offsetLeft + 20 + "px";
-    console.log(element.style.left);
-    console.log(element.OffsetLeft);
-    console.log("Mouse Over");
-  });
   console.log(element);
   console.log("Duck ready!");
 })();
