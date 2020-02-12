@@ -1,9 +1,5 @@
 (function () {
     'use strict';
-
-    document.getElementById('getSchool').addEventListener("click", getData);
-
-    function getData() {
         var myList = document.querySelector('ul');
 
         fetch('1281.json')
@@ -31,6 +27,4 @@
                 );
                 document.body.insertBefore(p, myList);
             });
-    }
-
-})();
+    })();
