@@ -1,6 +1,7 @@
 
 
 (function () {
+    'use strict';
     var myList = document.querySelector('ul');
 
     fetch('data/1281.json')
@@ -11,7 +12,7 @@
             return response.json();
         })
         .then(function(json) {
-            console.log(json)
+            console.log(json);
             for(var i = 0; i < json.Skolenheter.length; i++) {
                 var listItem = document.createElement('li');
                 listItem.innerHTML = '<strong>' + json.Skolenheter[i].Skolenhetskod + '</strong>';
