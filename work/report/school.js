@@ -3,7 +3,6 @@
 
     document.getElementById('getSchool').addEventListener("click", getData);
 
-    // UPDATE 1
     function getData() {
         var myList = document.querySelector('ul');
 
