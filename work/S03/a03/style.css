@@ -6,13 +6,6 @@ body {
     background-color: aqua;
 }
 
-ul {
-    list-style-type: none;
-    display: flex;
-    flex-flow: column;
-    align-items: flex-start;
-}
-
 li {
     margin-bottom: 10px;
     background-color: pink;

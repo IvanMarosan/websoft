@@ -5,6 +5,13 @@ html {
     overflow-y: scroll;
 }
 
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
 .duck{
    width:128px;
    height:128px;
