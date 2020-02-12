@@ -2,8 +2,7 @@
     'use strict';
 
     let url;
-
-    //url = "https://api.scb.se/UF0109/v2/skolenhetsregister/sv/kommun/1081";
+    
     url = "data/1281.json";
     fetch(url)
         .then((response) => {
