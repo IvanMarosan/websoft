@@ -1,3 +1,5 @@
+var schoolContainer = document.getElementById("tableDisplay");
+
 (function () {
     'use strict';
 
@@ -12,6 +14,6 @@
         .then((myJson) => {
             console.log(myJson);
         });
-    
+
     console.log('Console is ready!');
 })();
