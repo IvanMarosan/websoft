@@ -12,8 +12,10 @@ var schoolContainer = document.getElementById("tableDisplay");
             return response.json();
         })
         .then((myJson) => {
+            document.getElementById("school.html").innerHTML = JSON.stringify(myJson);
             console.log(myJson);
         });
+
 
     console.log('Console is ready!');
 })();
