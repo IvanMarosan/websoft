@@ -28,3 +28,11 @@ body {
     background: #E9967A;
     width: 700px;
 }
+li {
+    margin-bottom: 10px;
+    background-color: pink;
+    font-size: 150%;
+    border-top: 3px solid pink;
+    border-bottom: 3px solid pink;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
