@@ -13,10 +13,10 @@
                 console.log(json);
                 for(var i = 0; i < json.Skolenheter.length; i++) {
                     var listItem = document.createElement('li');
-                    listItem.innerHTML = '<strong>' + json.Skolenheter[i].Skolenhetskod + '</strong>';
-                    listItem.innerHTML +='<strong>' + json.Skolenheter[i].Skolenhetsnamn + '</strong>';
-                    listItem.innerHTML +='<strong>' + json.Skolenheter[i].Kommunkod + '</strong>';
-                    listItem.innerHTML +='<strong>' + json.Skolenheter[i].PeOrgNr + '</strong>';
+                    listItem.innerHTML = '<strong> ' + json.Skolenheter[i].Skolenhetskod + ' </strong>';
+                    listItem.innerHTML +='<strong> ' + json.Skolenheter[i].Skolenhetsnamn + ' </strong>';
+                    listItem.innerHTML +='<strong> ' + json.Skolenheter[i].Kommunkod + ' </strong>';
+                    listItem.innerHTML +='<strong> ' + json.Skolenheter[i].PeOrgNr + ' </strong>';
                     myList.appendChild(listItem);
                 }
             })
