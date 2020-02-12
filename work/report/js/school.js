@@ -1,5 +1,3 @@
-var schoolContainer = document.getElementById("tableDisplay");
-
 (function () {
     'use strict';
 
@@ -12,10 +10,17 @@ var schoolContainer = document.getElementById("tableDisplay");
             return response.json();
         })
         .then((myJson) => {
-            document.getElementById("school.html").innerHTML = JSON.stringify(myJson);
             console.log(myJson);
         });
 
+    url = "https://rem.dbwebb.se/api/users";
+    fetch(url)
+        .then((response) => {
+            return response.json();
+        })
+        .then((myJson) => {
+            console.log(myJson);
+        });
 
     console.log('Console is ready!');
 })();
