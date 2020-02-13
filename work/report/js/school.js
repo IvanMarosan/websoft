@@ -2,7 +2,7 @@
     'use strict';
         var myList = document.querySelector('ul');
 
-        fetch('1281.json')
+        fetch('data/1281.json')
             .then(function(response) {
                 if (!response.ok) {
                     throw new Error("HTTP error, status = " + response.status);
