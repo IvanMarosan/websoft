@@ -228,7 +228,7 @@ function MVP() {
 
 
 /**
- * Set view.
+ * Set views.
  */
 MVP.prototype.setView = function(eyeX, eyeY, eyeZ, atX, atY, atZ, upX, upY, upZ) {
     this.eyeX = eyeX || 0;
@@ -247,7 +247,7 @@ MVP.prototype.setView = function(eyeX, eyeY, eyeZ, atX, atY, atZ, upX, upY, upZ)
 
 
 /**
- * Set view.
+ * Set views.
  */
 MVP.prototype.setPerspective = function(fov, aspect, near, far) {
     this.fov    = fov;
@@ -445,7 +445,7 @@ function main() {
     function update() {
         mvp.update();
         //gl.uniformMatrix4fv(u_ModelMatrix, false, mvp.model.elements);
-        //gl.uniformMatrix4fv(u_ViewMatrix,  false, mvp.view.elements);
+        //gl.uniformMatrix4fv(u_ViewMatrix,  false, mvp.views.elements);
         //gl.uniformMatrix4fv(u_ProjMatrix,  false, mvp.projection.elements);
         gl.uniformMatrix4fv(u_MvpMatrix,   false, mvp.matrix.elements);
     }

@@ -229,7 +229,7 @@ function MVP() {
 
 
 /**
- * Set view.
+ * Set views.
  */
 MVP.prototype.setView = function(eyeX, eyeY, eyeZ, atX, atY, atZ, upX, upY, upZ) {
     this.eyeX = eyeX || 0;
@@ -248,7 +248,7 @@ MVP.prototype.setView = function(eyeX, eyeY, eyeZ, atX, atY, atZ, upX, upY, upZ)
 
 
 /**
- * Set view.
+ * Set views.
  */
 MVP.prototype.setPerspective = function(fov, aspect, near, far) {
     this.fov    = fov;

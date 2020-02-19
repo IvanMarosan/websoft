@@ -202,7 +202,7 @@ function MVP() {
 
 
 /**
- * Set view.
+ * Set views.
  */
 MVP.prototype.setView = function(eyeX, eyeY, eyeZ, atX, atY, atZ, upX, upY, upZ) {
     this.eyeX = eyeX || 0;

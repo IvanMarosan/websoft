@@ -156,7 +156,7 @@ function ViewModel() {
 
 
 /**
- * Set view.
+ * Set views.
  */
 ViewModel.prototype.setView = function(eyeX, eyeY, eyeZ, atX, atY, atZ, upX, upY, upZ) {
     this.eyeX = eyeX || 0;
