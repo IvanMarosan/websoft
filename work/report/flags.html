@@ -5,7 +5,6 @@
     <title>Title</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
 <header>
     <nav>
         <a href="me.html">Me</a> |
@@ -17,8 +16,45 @@
     </nav>
 </header>
 
+<p><button onclick="showBulgaria()">Bulgaria</button>
+    <button onclick="showFinland()">Finland</button>
+    <button onclick="showGreece()">Greece</button>
+</p>
 <div id="bulgaria" class="flag"></div>
 <div id="finland" class="flag" ></div>
 <div id="greece" class="flag"></div>
+<footer>
+    <img src="img/greenfooter.png" height="100" width="700">
+</footer>
+
+
+<script>
+    function showBulgaria() {
+        var x = document.getElementById("bulgaria");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+    function showFinland() {
+        var x = document.getElementById("finland");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+
+    function showGreece() {
+        var x = document.getElementById("greece");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
+
 </body>
 </html>
