@@ -1,0 +1,11 @@
+C:\Users\Sazzh\Documents\GitHub\websoft\websoft\work\S07\console\project\bin\Debug\netcoreapp3.1\project.exe
+C:\Users\Sazzh\Documents\GitHub\websoft\websoft\work\S07\console\project\bin\Debug\netcoreapp3.1\project.deps.json
+C:\Users\Sazzh\Documents\GitHub\websoft\websoft\work\S07\console\project\bin\Debug\netcoreapp3.1\project.runtimeconfig.json
+C:\Users\Sazzh\Documents\GitHub\websoft\websoft\work\S07\console\project\bin\Debug\netcoreapp3.1\project.runtimeconfig.dev.json
+C:\Users\Sazzh\Documents\GitHub\websoft\websoft\work\S07\console\project\bin\Debug\netcoreapp3.1\project.dll
+C:\Users\Sazzh\Documents\GitHub\websoft\websoft\work\S07\console\project\bin\Debug\netcoreapp3.1\project.pdb
+C:\Users\Sazzh\Documents\GitHub\websoft\websoft\work\S07\console\project\obj\Debug\netcoreapp3.1\project.csprojAssemblyReference.cache
+C:\Users\Sazzh\Documents\GitHub\websoft\websoft\work\S07\console\project\obj\Debug\netcoreapp3.1\project.AssemblyInfoInputs.cache
+C:\Users\Sazzh\Documents\GitHub\websoft\websoft\work\S07\console\project\obj\Debug\netcoreapp3.1\project.AssemblyInfo.cs
+C:\Users\Sazzh\Documents\GitHub\websoft\websoft\work\S07\console\project\obj\Debug\netcoreapp3.1\project.dll
+C:\Users\Sazzh\Documents\GitHub\websoft\websoft\work\S07\console\project\obj\Debug\netcoreapp3.1\project.pdb
