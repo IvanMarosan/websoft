@@ -1,4 +1,3 @@
-
 <?php
 require "databaseOperation/config.php";
 require "databaseOperation/function.php";

@@ -5,8 +5,8 @@ require __DIR__ . "/header.php";
 
 <form action="update.php" method="get">
     ID: <input type="text" name="id" value="<?= $id ?>">
-    New Label: <input type="text" name="label" value="<?= $label ?>">
-    New Type: <input type="text" name="type" value="<?= $type ?>">
+    Label: <input type="text" name="label" value="<?= $label ?>">
+    Type: <input type="text" name="type" value="<?= $type ?>">
     <input type="submit">
 </form>
 

@@ -33,7 +33,6 @@ namespace project
             var accountList = accounts.ToList();
             if (!accountList.Any())
             {
-                Console.WriteLine("There is no such account");
                 return;
             }
 

@@ -36,7 +36,7 @@ namespace project
                         if (exists == null) 
                         {
                             Console.WriteLine("This account does not exists");
-                            return;
+                            break;
                         }
                         Methods.PrintAccount(new []{exists});
                         break;
@@ -44,7 +44,7 @@ namespace project
                         Environment.Exit(0);
                         break;
                     default:
-                        Console.WriteLine("Oopsie!");
+                        Console.WriteLine("Please enter a legit number!");
                         break;
                 }
             }

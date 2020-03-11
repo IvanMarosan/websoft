@@ -17,6 +17,7 @@ try {
     $db = new PDO(
         $dsn["dsn"],
         $dsn["username"]
+        $dsn["password"]
     );
 
     $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
