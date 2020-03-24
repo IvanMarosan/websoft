@@ -19,7 +19,7 @@
   },
   {
     "Number": 42,
-    "Balance": 12,
+    "Balance": 1000000,
     "Label": "Secret",
     "Owner": 42
   }
